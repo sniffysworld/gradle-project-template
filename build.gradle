@@ -13,7 +13,7 @@ buildScan {
 }
 
 allprojects {
-
+    apply plugin: 'com.gradle.build-scan'
     apply plugin: 'java'
     apply plugin: 'jacoco'
     apply plugin: 'maven'
